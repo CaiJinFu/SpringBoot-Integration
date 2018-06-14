@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot_Doubbo_Client" />
+        <module name="SpringBoot_Dubbo_Server" />
+        <module name="SpringBoot_Mybatis" />
+        <module name="SpringBoot_Mybatis_Annotation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot-Integration" target="1.5" />
+      <module name="SpringBoot_Doubbo_Client" target="1.6" />
+      <module name="SpringBoot_Dubbo_Server" target="1.6" />
+      <module name="SpringBoot_Mybatis" target="1.6" />
+      <module name="SpringBoot_Mybatis_Annotation" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

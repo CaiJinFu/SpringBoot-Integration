@@ -1,0 +1,4 @@
+cn\joes\ServerApplication.class
+cn\joes\dubbo\CityDubboService.class
+cn\joes\domain\City.class
+cn\joes\dubbo\impl\CityDubboServiceImpl.class
