@@ -10,6 +10,7 @@
         <module name="SpringBoot_Dubbo_Server" />
         <module name="SpringBoot_Mybatis" />
         <module name="SpringBoot_Mybatis_Annotation" />
+        <module name="SpringBoot_Redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="SpringBoot_Dubbo_Server" target="1.6" />
       <module name="SpringBoot_Mybatis" target="1.6" />
       <module name="SpringBoot_Mybatis_Annotation" target="1.6" />
+      <module name="SpringBoot_Redis" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -13,6 +13,7 @@
         <module>SpringBoot_Mybatis_Annotation</module>
         <module>SpringBoot_Dubbo_Server</module>
         <module>SpringBoot_Doubbo_Client</module>
+        <module>SpringBoot_Redis</module>
     </modules>
 
 
