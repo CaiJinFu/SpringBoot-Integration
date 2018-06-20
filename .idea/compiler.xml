@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot_Doubbo_Client" />
         <module name="SpringBoot_Dubbo_Server" />
+        <module name="SpringBoot_HelloWorld" />
         <module name="SpringBoot_Mybatis" />
         <module name="SpringBoot_Mybatis_Annotation" />
+        <module name="SpringBoot_Properties_Binder" />
         <module name="SpringBoot_Redis" />
       </profile>
     </annotationProcessing>
@@ -17,8 +19,10 @@
       <module name="SpringBoot-Integration" target="1.5" />
       <module name="SpringBoot_Doubbo_Client" target="1.6" />
       <module name="SpringBoot_Dubbo_Server" target="1.6" />
+      <module name="SpringBoot_HelloWorld" target="1.6" />
       <module name="SpringBoot_Mybatis" target="1.6" />
       <module name="SpringBoot_Mybatis_Annotation" target="1.6" />
+      <module name="SpringBoot_Properties_Binder" target="1.6" />
       <module name="SpringBoot_Redis" target="1.6" />
     </bytecodeTargetLevel>
   </component>

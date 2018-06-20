@@ -1,0 +1,7 @@
+cn\joe\dao\CityDao.class
+cn\joe\Application.class
+cn\joe\service\CityService.class
+cn\joe\service\impl\CityServiceImpl.class
+cn\joe\controller\CityRestController.class
+cn\joe\domain\Person.class
+cn\joe\domain\City.class

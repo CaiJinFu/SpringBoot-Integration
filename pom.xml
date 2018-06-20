@@ -14,6 +14,8 @@
         <module>SpringBoot_Dubbo_Server</module>
         <module>SpringBoot_Doubbo_Client</module>
         <module>SpringBoot_Redis</module>
+        <module>SpringBoot_Properties_Binder</module>
+        <module>SpringBoot_HelloWorld</module>
     </modules>
 
 
