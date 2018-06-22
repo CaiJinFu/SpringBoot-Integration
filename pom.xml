@@ -16,6 +16,7 @@
         <module>SpringBoot_Redis</module>
         <module>SpringBoot_Properties_Binder</module>
         <module>SpringBoot_HelloWorld</module>
+        <module>SpringBoot_Swagger2</module>
     </modules>
 
 
