@@ -8,3 +8,5 @@
 #### 6.[doubbo-server](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_Dubbo_Server)
 #### 7.[doubbo-client](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_Doubbo_Client)
 #### 8.[swagger2](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_Swagger2)
+#### 9.[jpa](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_JPA)
+
