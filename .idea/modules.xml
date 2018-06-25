@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Integration.iml" filepath="$PROJECT_DIR$/SpringBoot-Integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_AOP/SpringBoot_AOP.iml" filepath="$PROJECT_DIR$/SpringBoot_AOP/SpringBoot_AOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Asyn/SpringBoot_Asyn.iml" filepath="$PROJECT_DIR$/SpringBoot_Asyn/SpringBoot_Asyn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_DataSource_Multi/SpringBoot_DataSource_Multi.iml" filepath="$PROJECT_DIR$/SpringBoot_DataSource_Multi/SpringBoot_DataSource_Multi.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Doubbo_Client/SpringBoot_Doubbo_Client.iml" filepath="$PROJECT_DIR$/SpringBoot_Doubbo_Client/SpringBoot_Doubbo_Client.iml" />

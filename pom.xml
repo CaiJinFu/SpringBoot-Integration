@@ -22,6 +22,7 @@
         <module>SpringBoot_Scheduled</module>
         <module>SpringBoot_Asyn</module>
         <module>SpringBoot_Log4j</module>
+        <module>SpringBoot_AOP</module>
     </modules>
 
 
