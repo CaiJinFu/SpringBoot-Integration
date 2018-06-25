@@ -7,12 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Spring Boot 应用启动类
  *
- * @MapperScan 接口类扫描包配置
- *
  * Created by myijoes on 18/6/14.
  */
+// Spring Boot 应用的标识
 @SpringBootApplication
-@MapperScan("cn.joes.dao")
 public class Application {
 
     public static void main(String[] args) {

@@ -29,4 +29,14 @@ public class CityRestController {
         return cityRepository.save(city);
     }
 
+    @RequestMapping(value = "/api/city/provinceId/{provinceId}", method = RequestMethod.GET)
+    public City findByProvinceId(@PathVariable(value = "provinceId", required = true)Long provinceId) {
+        return cityRepository.findByProvinceId(provinceId);
+    }
+
+    @RequestMapping(value = "/api/city/test/{test}", method = RequestMethod.GET)
+    public City findByTest(@PathVariable(value = "test", required = true)String test) {
+        return cityRepository.findByTestTestTestTest(test);
+    }
+
 }

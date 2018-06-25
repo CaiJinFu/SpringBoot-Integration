@@ -38,6 +38,9 @@ public class City {
     @Column(name = "description")
     private String description;
 
+    @Column(name = "testTestTestTest")
+    private String testTestTestTest;
+
     public Long getId() {
         return id;
     }
@@ -68,5 +71,13 @@ public class City {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getTestTestTestTest() {
+        return testTestTestTest;
+    }
+
+    public void setTestTestTestTest(String testTestTestTest) {
+        this.testTestTestTest = testTestTestTest;
     }
 }

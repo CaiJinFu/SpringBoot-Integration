@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Integration.iml" filepath="$PROJECT_DIR$/SpringBoot-Integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Asyn/SpringBoot_Asyn.iml" filepath="$PROJECT_DIR$/SpringBoot_Asyn/SpringBoot_Asyn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_DataSource_Multi/SpringBoot_DataSource_Multi.iml" filepath="$PROJECT_DIR$/SpringBoot_DataSource_Multi/SpringBoot_DataSource_Multi.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Doubbo_Client/SpringBoot_Doubbo_Client.iml" filepath="$PROJECT_DIR$/SpringBoot_Doubbo_Client/SpringBoot_Doubbo_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Dubbo_Server/SpringBoot_Dubbo_Server.iml" filepath="$PROJECT_DIR$/SpringBoot_Dubbo_Server/SpringBoot_Dubbo_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_HelloWorld/SpringBoot_HelloWorld.iml" filepath="$PROJECT_DIR$/SpringBoot_HelloWorld/SpringBoot_HelloWorld.iml" />
@@ -11,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Mybatis_Annotation/SpringBoot_Mybatis_Annotation.iml" filepath="$PROJECT_DIR$/SpringBoot_Mybatis_Annotation/SpringBoot_Mybatis_Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Properties_Binder/SpringBoot_Properties_Binder.iml" filepath="$PROJECT_DIR$/SpringBoot_Properties_Binder/SpringBoot_Properties_Binder.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Redis/SpringBoot_Redis.iml" filepath="$PROJECT_DIR$/SpringBoot_Redis/SpringBoot_Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Scheduled/SpringBoot_Scheduled.iml" filepath="$PROJECT_DIR$/SpringBoot_Scheduled/SpringBoot_Scheduled.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Swagger2/SpringBoot_Swagger2.iml" filepath="$PROJECT_DIR$/SpringBoot_Swagger2/SpringBoot_Swagger2.iml" />
     </modules>
   </component>

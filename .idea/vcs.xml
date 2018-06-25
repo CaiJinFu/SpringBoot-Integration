@@ -2,10 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringBoot_Asyn" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/SpringBoot_DataSource_Multi" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/SpringBoot_HelloWorld" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/SpringBoot_JPA" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/SpringBoot_Properties_Binder" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/SpringBoot_Redis" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/SpringBoot_Scheduled" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/SpringBoot_Swagger2" vcs="svn" />
   </component>
 </project>
