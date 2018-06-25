@@ -9,4 +9,7 @@
 #### 7.[doubbo-client](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_Doubbo_Client)
 #### 8.[swagger2](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_Swagger2)
 #### 9.[jpa](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_JPA)
+#### 10.[jpa](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_Scheduled)
+#### 11.[jpa](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_Asyn)
+#### 12.[jpa](https://github.com/My1iJ3oe6s/SpringBoot-Integration/tree/master/SpringBoot_DataSource_Multi)
 
