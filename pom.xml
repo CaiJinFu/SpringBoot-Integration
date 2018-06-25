@@ -21,6 +21,7 @@
         <module>SpringBoot_DataSource_Multi</module>
         <module>SpringBoot_Scheduled</module>
         <module>SpringBoot_Asyn</module>
+        <module>SpringBoot_Log4j</module>
     </modules>
 
 
