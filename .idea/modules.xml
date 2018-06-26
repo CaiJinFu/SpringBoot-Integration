@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_HelloWorld/SpringBoot_HelloWorld.iml" filepath="$PROJECT_DIR$/SpringBoot_HelloWorld/SpringBoot_HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_JPA/SpringBoot_JPA.iml" filepath="$PROJECT_DIR$/SpringBoot_JPA/SpringBoot_JPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Log4j/SpringBoot_Log4j.iml" filepath="$PROJECT_DIR$/SpringBoot_Log4j/SpringBoot_Log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Mail/SpringBoot_Mail.iml" filepath="$PROJECT_DIR$/SpringBoot_Mail/SpringBoot_Mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Mybatis/SpringBoot_Mybatis.iml" filepath="$PROJECT_DIR$/SpringBoot_Mybatis/SpringBoot_Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Mybatis_Annotation/SpringBoot_Mybatis_Annotation.iml" filepath="$PROJECT_DIR$/SpringBoot_Mybatis_Annotation/SpringBoot_Mybatis_Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Properties_Binder/SpringBoot_Properties_Binder.iml" filepath="$PROJECT_DIR$/SpringBoot_Properties_Binder/SpringBoot_Properties_Binder.iml" />

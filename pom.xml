@@ -23,6 +23,7 @@
         <module>SpringBoot_Asyn</module>
         <module>SpringBoot_Log4j</module>
         <module>SpringBoot_AOP</module>
+        <module>SpringBoot_Mail</module>
     </modules>
 
 

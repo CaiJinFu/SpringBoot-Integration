@@ -14,6 +14,7 @@
         <module name="SpringBoot_HelloWorld" />
         <module name="SpringBoot_JPA" />
         <module name="SpringBoot_Log4j" />
+        <module name="SpringBoot_Mail" />
         <module name="SpringBoot_Mybatis" />
         <module name="SpringBoot_Properties_Binder" />
         <module name="SpringBoot_Redis" />
@@ -37,6 +38,7 @@
       <module name="SpringBoot_HelloWorld" target="1.6" />
       <module name="SpringBoot_JPA" target="1.6" />
       <module name="SpringBoot_Log4j" target="1.6" />
+      <module name="SpringBoot_Mail" target="1.6" />
       <module name="SpringBoot_Mybatis" target="1.6" />
       <module name="SpringBoot_Mybatis_Annotation" target="1.6" />
       <module name="SpringBoot_Properties_Binder" target="1.6" />
