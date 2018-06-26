@@ -54,6 +54,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="357">
+                <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MailService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringBoot_Mail/src/main/java/cn/joes/service/MailService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringBoot_Mail/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -177,7 +190,6 @@
         <option value="$PROJECT_DIR$/SpringBoot_Log4j/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_Log4j/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/SpringBoot_Log4j/src/main/java/cn/joes/Application.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/SpringBoot_AOP/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_AOP/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/SpringBoot_AOP/src/main/java/cn/joes/Application.java" />
@@ -188,6 +200,7 @@
         <option value="$PROJECT_DIR$/SpringBoot_Mail/src/main/java/cn/joes/Application.java" />
         <option value="$PROJECT_DIR$/SpringBoot_Mail/src/main/java/cn/joes/service/MailService.java" />
         <option value="$PROJECT_DIR$/SpringBoot_Mail/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1008,12 +1021,12 @@
       <workItem from="1529889473817" duration="983000" />
       <workItem from="1529909902521" duration="10719000" />
       <workItem from="1529979237540" duration="14334000" />
-      <workItem from="1530014713432" duration="131000" />
+      <workItem from="1530014713432" duration="231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106193000" />
+    <option name="totallyTimeSpent" value="106293000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1248,16 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBoot_Asyn/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1471,6 +1474,17 @@
         <state relative-caret-position="147">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
