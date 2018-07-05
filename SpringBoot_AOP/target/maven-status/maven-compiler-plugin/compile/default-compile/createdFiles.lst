@@ -1,0 +1,4 @@
+cn\joes\controller\HelloWorld.class
+cn\joes\aop\MyAOP.class
+cn\joes\Application.class
+cn\joes\aop\WebLogAspect.class

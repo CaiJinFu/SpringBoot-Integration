@@ -25,7 +25,6 @@
         <module>SpringBoot_AOP</module>
         <module>SpringBoot_Mail</module>
         <module>SpringBoot_Quartz</module>
-        <module>SpringBoot_Quartz1</module>
     </modules>
 
 
