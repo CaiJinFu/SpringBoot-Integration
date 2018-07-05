@@ -2,7 +2,7 @@ package cn.joes.task;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -15,8 +15,10 @@ public class ScheduledTasks {
 
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
-    @Scheduled(fixedRate = 5000)
-    public void reportCurrentTime() {
+    private static int a = 0;
+
+    @Scheduled(fixedRate = 60000)
+    public void reportCurrentTime() throws IOException {
         System.out.println("现在时间：" + dateFormat.format(new Date()));
     }
 

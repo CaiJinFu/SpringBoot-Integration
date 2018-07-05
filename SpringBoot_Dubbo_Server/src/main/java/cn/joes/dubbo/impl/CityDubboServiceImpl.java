@@ -18,6 +18,7 @@ public class CityDubboServiceImpl implements CityDubboService {
     @Autowired
     CityDao cityDao;
 
+    @Override
     public City findCityByName(String cityName) {
         return cityDao.findByName(cityName);
     }
