@@ -1,5 +1,6 @@
 package joes;
 
+import joes.service.receive.RabbitMQReceive;
 import joes.service.sender.RabbitMQSender;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,5 +13,7 @@ public class Application {
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
 		RabbitMQSender bean = run.getBean(RabbitMQSender.class);
 		bean.send();
+		RabbitMQReceive receive = run.getBean(RabbitMQReceive.class);
+
 	}
 }
