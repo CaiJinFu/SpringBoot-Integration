@@ -14,10 +14,12 @@
         <module name="SpringBoot_Dubbo_Server" />
         <module name="SpringBoot_HelloWorld" />
         <module name="SpringBoot_JPA" />
+<<<<<<< HEAD
         <module name="SpringBoot_Log4j" />
+=======
+>>>>>>> 57d0d106807db0a5729a6ee94babbd4c9aadfcee
         <module name="SpringBoot_Mail" />
         <module name="SpringBoot_Mybatis" />
-        <module name="SpringBoot_Mybatis_Annotation" />
         <module name="SpringBoot_Properties_Binder" />
         <module name="SpringBoot_Quartz" />
         <module name="SpringBoot_RabbitMQ" />
@@ -25,6 +27,21 @@
         <module name="SpringBoot_Scheduled" />
         <module name="SpringBoot_Swagger2" />
       </profile>
+<<<<<<< HEAD
+=======
+      <profile name="Annotation profile for SpringBoot_Log4j" enabled="true">
+        <sourceOutputDir name="../SpringBoot_Doubbo_Client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../SpringBoot_Doubbo_Client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot_Log4j" />
+      </profile>
+      <profile name="Annotation profile for SpringBoot-Integration" enabled="true">
+        <sourceOutputDir name="../SpringBoot_JPA/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../SpringBoot_JPA/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot_Mybatis_Annotation" />
+      </profile>
+>>>>>>> 57d0d106807db0a5729a6ee94babbd4c9aadfcee
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringBoot-Integration" target="1.5" />

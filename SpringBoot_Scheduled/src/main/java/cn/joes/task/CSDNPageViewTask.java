@@ -35,16 +35,9 @@ public class CSDNPageViewTask {
         urllists.add("https://blog.csdn.net/m_joes_17/article/details/80527635");
         urllists.add("https://blog.csdn.net/m_joes_17/article/details/80492236");
         urllists.add("https://blog.csdn.net/m_joes_17/article/details/80484128");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80479782");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80477267");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80454246");
         urllists.add("https://blog.csdn.net/m_joes_17/article/details/80453812");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80452410");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80430864");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80207539");
         urllists.add("https://blog.csdn.net/m_joes_17/article/details/80099684");
         urllists.add("https://blog.csdn.net/m_joes_17/article/details/80899274");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80889627");
         urllists.add("https://blog.csdn.net/m_joes_17/article/details/80889568");
     }
 
