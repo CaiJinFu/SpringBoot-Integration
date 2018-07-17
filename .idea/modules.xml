@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Mybatis_Annotation/SpringBoot_Mybatis_Annotation.iml" filepath="$PROJECT_DIR$/SpringBoot_Mybatis_Annotation/SpringBoot_Mybatis_Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Properties_Binder/SpringBoot_Properties_Binder.iml" filepath="$PROJECT_DIR$/SpringBoot_Properties_Binder/SpringBoot_Properties_Binder.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Quartz/SpringBoot_Quartz.iml" filepath="$PROJECT_DIR$/SpringBoot_Quartz/SpringBoot_Quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_RabbitMQ/SpringBoot_RabbitMQ.iml" filepath="$PROJECT_DIR$/SpringBoot_RabbitMQ/SpringBoot_RabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Redis/SpringBoot_Redis.iml" filepath="$PROJECT_DIR$/SpringBoot_Redis/SpringBoot_Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Scheduled/SpringBoot_Scheduled.iml" filepath="$PROJECT_DIR$/SpringBoot_Scheduled/SpringBoot_Scheduled.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_Swagger2/SpringBoot_Swagger2.iml" filepath="$PROJECT_DIR$/SpringBoot_Swagger2/SpringBoot_Swagger2.iml" />
