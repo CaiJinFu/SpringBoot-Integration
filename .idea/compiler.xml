@@ -13,21 +13,17 @@
         <module name="SpringBoot_Doubbo_Client" />
         <module name="SpringBoot_Dubbo_Server" />
         <module name="SpringBoot_HelloWorld" />
+        <module name="SpringBoot_JPA" />
         <module name="SpringBoot_Log4j" />
         <module name="SpringBoot_Mail" />
         <module name="SpringBoot_Mybatis" />
         <module name="SpringBoot_Mybatis_Annotation" />
         <module name="SpringBoot_Properties_Binder" />
         <module name="SpringBoot_Quartz" />
+        <module name="SpringBoot_RabbitMQ" />
         <module name="SpringBoot_Redis" />
         <module name="SpringBoot_Scheduled" />
         <module name="SpringBoot_Swagger2" />
-      </profile>
-      <profile name="Annotation profile for SpringBoot-Integration" enabled="true">
-        <sourceOutputDir name="../SpringBoot_Mybatis_Annotation/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../SpringBoot_Mybatis_Annotation/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="SpringBoot_JPA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,6 +42,7 @@
       <module name="SpringBoot_Properties_Binder" target="1.6" />
       <module name="SpringBoot_Quartz" target="1.6" />
       <module name="SpringBoot_Quartz1" target="1.5" />
+      <module name="SpringBoot_RabbitMQ" target="1.6" />
       <module name="SpringBoot_Redis" target="1.6" />
       <module name="SpringBoot_Scheduled" target="1.8" />
       <module name="SpringBoot_Swagger2" target="1.6" />
