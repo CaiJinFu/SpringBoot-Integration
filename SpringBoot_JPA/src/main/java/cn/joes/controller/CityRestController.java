@@ -4,9 +4,8 @@ import cn.joes.domain.City;
 import cn.joes.repository.City2Repository;
 import cn.joes.repository.CityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
-
-import javax.persistence.EntityManager;
 import java.util.List;
 
 /**
@@ -53,7 +52,25 @@ public class CityRestController {
 
     @RequestMapping(value = "/city/id/{id}", method = RequestMethod.GET)
     public City queryById(@PathVariable(value = "id", required = true) Long id) {
-        return city2Repository.queryById(id);
+        //return city2Repository.queryById(id);
+        return null;
     }
+
+    @RequestMapping(value = "/city/id", method = RequestMethod.POST)
+    public List<City> queryById(@RequestBody(required = true) List<Long> ids) {
+        System.out.println("kais ");
+        //ids.add(a);
+        System.out.println("ids length : " + ids.size());
+        for (Long id : ids){
+            System.out.println("meigezhifenbiewei : " + id);
+        }
+        if(ids.size() == 0){
+            ids = null;
+        }
+        return city2Repository.queryById(ids);
+    }
+
+    @Value("#{1}")
+    private Long a;
 
 }
