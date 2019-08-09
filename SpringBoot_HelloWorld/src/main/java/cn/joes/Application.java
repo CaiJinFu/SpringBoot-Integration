@@ -1,14 +1,15 @@
 package cn.joes;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-@MapperScan("cn.joes.dao")
 public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
+		Object redisTemplate = run.getBean("redisTemplate");
+
 	}
 }

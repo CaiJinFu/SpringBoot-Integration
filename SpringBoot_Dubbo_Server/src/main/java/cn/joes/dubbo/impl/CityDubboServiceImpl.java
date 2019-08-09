@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Created by myijoes on 18/6/14.
  */
 // 注册为 Dubbo 服务
-@Service(version = "1.0.0")
+@Service(version = "1.0.0", loadbalance = "customLoadBalance")
 public class CityDubboServiceImpl implements CityDubboService {
 
     @Autowired

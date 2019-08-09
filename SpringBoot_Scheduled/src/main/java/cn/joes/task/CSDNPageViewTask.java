@@ -29,16 +29,26 @@ public class CSDNPageViewTask {
     private static Integer count = 0;
 
     {
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80852052");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80563671");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80540073");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80527635");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80492236");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80484128");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80453812");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80099684");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80899274");
-        urllists.add("https://blog.csdn.net/m_joes_17/article/details/80889568");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/81094715");
+        /*urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/81076998");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/81067672");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/81001700");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80981483");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80899274");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80889627");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80889568");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80852052");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80563671");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80540073");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80527635");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80492236");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80484128");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80479782");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80477267");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80454246");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80453812");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80452410");
+        urllists.add("ttps://blog.csdn.net/m_joes_17/article/details/80430864");*/
     }
 
     @Scheduled(fixedRate = 30000)
@@ -47,7 +57,7 @@ public class CSDNPageViewTask {
         urllists.forEach(c -> {
             CloseableHttpClient httpclient = HttpClients.createDefault();
             HttpGet httpGet = new HttpGet(c);
-            httpGet.setHeader("cookie", "TY_SESSION_ID=a35fa877-14e8-47dd-b71a-c17d69641254; __yadk_uid=yRmi4OLa2x7YNpPORbkK7NjNYWwrrvqz; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1530497191; dc_session_id=10_1530495960837.248620; kd_user_id=bf3400be-b55b-44dd-93e3-1115524d6f99; Hm_ct_6bcd52f51e9b3dce32bec4a3997715ac=1788*1*PC_VC; uuid_tt_dd=10_19477468810-1524026222172-525258; dc_tos=pb7v6v; BT=1530497186833;smidV2=20180604161121ed6a2ac50b0d7dc4a843bdbda186ba1d001d0a521f73c9c10; UN=M_Joes_17; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1530350258,1530351232,1530351270,1530495959; UserName=M_Joes_17; UserInfo=j6xUquk3T1ffRij2Wn9hWKGXE%2BlA3%2B%2Bf1oeJGIYWqbpb%2Bq9cUsG0FIfaG4MBS4DZbXDzOrVuD4icSYhPEYDVmNyRtFYQwO18qYnG1sKJ2q6anxHJa028LMEekbtinhG9; UserNick=M_Joes_18; AU=F44");
+            httpGet.setHeader("cookie", "uuid_tt_dd=10_10326673180-1524467245344-276070; kd_user_id=4116614e-242e-41f8-8260-3827f58b307d; __utma=17226283.6981119.1528681803.1528681803.1528681803.1; __utmz=17226283.1528681803.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ADHOC_MEMBERSHIP_CLIENT_ID1.0=9bc57eaf-6651-c1eb-a41d-d04370597063; Hm_ct_6bcd52f51e9b3dce32bec4a3997715ac=1788*1*PC_VC; UserName=M_Joes_17; UserInfo=j6xUquk3T1ffRij2Wn9hWKGXE%2BlA3%2B%2Bf1oeJGIYWqbpb%2Bq9cUsG0FIfaG4MBS4DZbXDzOrVuD4icSYhPEYDVmNyRtFYQwO18qYnG1sKJ2q6anxHJa028LMEekbtinhG9; UserNick=M_Joes_18; UN=M_Joes_17; AU=F44; BT=1531795458557; UserToken=j6xUquk3T1ffRij2Wn9hWKGXE%2BlA3%2B%2Bf1oeJGIYWqbpb%2Bq9cUsG0FIfaG4MBS4DZbXDzOrVuD4icSYhPEYDVmNyRtFYQwO18qYnG1sKJ2q5U91I1b%2BsBNHuC9uCfEhoHi%2B4pmp0%2FQV4Qg%2FGfimrA37AxbWtDljxg5aT3lG39O5P0f%2Bji%2F267W6I%2FFGwHYCR7; smidV2=20180611093245db50df8789697fe6b5323ad3fc57e3ef0073bf57ecf2ecd70; dc_session_id=10_1532069859884.559413; TY_SESSION_ID=33febc4f-d8b4-4bcf-8a5a-e4ecc0be5d0b; dc_tos=pc5l7s; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1531998131,1531998143,1531998290,1532069860; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1532070569");
 
             System.out.println("访问页面: " + c);
             try {
@@ -59,9 +69,7 @@ public class CSDNPageViewTask {
 
             count++;
             System.out.println("###### 统计次数 count: " + count);
-            if(count == 10){
 
-            }
         });
     }
 
